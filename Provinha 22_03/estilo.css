@@ -1,0 +1,168 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: black; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+
+}
+
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+background-color: darkgrey;
+
+    margin-right: 0rem;
+    margin-left:  0rem;
+    margin-top: 3rem;
+
+   
+    text-align: justify;
+
+
+}
+
+
+
+
+div{
+
+display: inline-block;
+
+
+}
+
+
+
+#corpo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 50rem; ;
+    margin-top: 7%;
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 45rem;
+    height: 30rem;
+ 
+    
+    background: #d4b2b2;
+    mix-blend-mode: normal;
+    border: 0.1rem solid #000000;
+    border-radius: 6rem;}
+
+#cabecalho{padding-left: 15px;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+padding-right: 1.5rem;
+
+
+
+}
+
+#nome{  /*meu nome*/
+   left:15rem;
+    top: 6.8rem;
+position: absolute;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#foto{
+
+   top: 2.8rem;
+   background-repeat: no-repeat;
+   border-radius: 100%;
+   margin-left:0.938;
+  
+}
+
+#barra{
+    position: absolute;
+    width: 54.1rem;
+    height: 2.6rem;
+    left: 45rem;
+    top: 7.8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6rem;
+   
+    background: #D9D9D9;
+    mix-blend-mode: normal;
+    border: 0.1rem solid #000000;
+    border-radius: 6rem;
+
+}
+
+
+#singin{
+    position: absolute;
+    width: 10rem;
+    height: 2.6rem;
+    left: 115rem;
+    top: 7.8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6rem;
+
+    background: #D9D9D9;
+mix-blend-mode: normal;
+border: 0.1rem solid #000000;
+border-radius: 6rem;
+}
+
+#login{
+    position: absolute;
+    width: 10rem;
+    height: 2.6rem;
+    left: 130rem;
+    top: 7.8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6rem;
+   
+
+
+    background: #D9D9D9;
+mix-blend-mode: normal;
+border: 0.1rem solid #000000;
+border-radius: 6rem;
+}
+
+
+    #log{display: flex;
+        justify-content: center;
+        align-items: center;
+        width:10rem;
+        height: 2.6rem;
+        margin:auto;
+        font-family:Arial;
+        color:#000000; 
+    font-size: 1rem;}
+
+    #sing{display: flex;
+        justify-content: center;
+        align-items: center;
+        width:10rem;
+        height: 2.6rem;
+        margin:auto;
+        font-family:Arial;
+        color:#000000; 
+    font-size: 1rem;}
+    
+    
